@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  background: #ededed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+  border: 1px solid #383838;
+  border-radius: 45% 15% 5% 8%/10% 45% 79% 70%;
+  border-width: 6px 10px 1px 4px;
+  box-shadow: 0px 4px 6px -6px #222;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  font-size: 80px;
+}
+
+span {
+  margin: 5px;
+}
+
+#minutes {
+  color: #fff;
+  text-shadow: 0.4em 0em 0.5em tomato, 0.7em -0.5em 0.5em tomato, 0.2em -0.8em 0.5em tomato;
+}
+
+#seconds {
+  color: #fff;
+  text-shadow: -0.8em 0em 0.5em #ffa899, -0.3em 0em 0.5em tomato, -0.5em 0.3em 0.5em #ed7059, 0em 0.6em 0.5em tomato;
+}
+
+.button {
+  padding: 40px;
+  height: 25%;
+}
+
+button {
+  margin: 10px 10px;
+  border-style: none;
+  font-size: 18px;
+  font-family: "Kalam", cursive;
+}
+
+.start {
+  position: relative;
+  text-shadow: 0.4em 0em 0.5em #629460, 0.7em -0.5em 0.5em #629460, 0.2em -0.8em 0.5em #FDFFF7;
+}
+
+.start:hover {
+  text-shadow: none;
+  box-shadow: 0 -8px #FFDC5E inset;
+  font-style: italic;
+}
+
+.stop {
+  text-shadow: 0.4em 0em 0.5em #629460, 0.7em 0em 0.5em #FDFFF7, 0.2em -0.8em 0.5em #FDFFF7, 0.4em -0.2em 0.5em #629460;
+}
+
+.stop:hover {
+  text-shadow: none;
+  box-shadow: 0 -8px #FFDC5E inset;
+  font-style: italic;
+}
+
+.reset {
+  text-shadow: 0.4em 0em 0.5em #629460, 0.7em 0em 0.5em #FDFFF7, 0.2em -0.8em 0.5em #FDFFF7, 0.4em -0.2em 0.5em #629460;
+}
+
+.reset:hover {
+  text-shadow: none;
+  box-shadow: 0 -8px #FFDC5E inset;
+  font-style: italic;
+}
