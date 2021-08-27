@@ -4,5 +4,5 @@
 
 I took this Pomodoro Timer as my first side project to harness my coding skill.
 
-You can view the live version from my codepen [here](https://codepen.io/EmilyCC/full/MWmRebx).
+You can view the live version from my GitHub page [here](https://yuhsuanemilychen.github.io/Pomodoro-Timer/).
 
